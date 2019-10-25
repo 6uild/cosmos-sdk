@@ -63,7 +63,17 @@ var (
 	ErrTooManySignatures = Register(RootCodespace, 15, "maximum numer of signatures exceeded")
 
 	// ErrNoSignatures to doc
-	ErrNoSignatures = Register(RootCodespace, 16, "no signatures supplied")
+	ErrNoSignatures = Register(RootCodespace, 16, "todo")
+
+	ErrType         = Register(RootCodespace, 20, "todo")
+	ErrImmutable    = Register(RootCodespace, 21, "todo")
+	ErrNotFound     = Register(RootCodespace, 22, "todo")
+	ErrDuplicate    = Register(RootCodespace, 23, "todo")
+	ErrInvalidIndex = Register(RootCodespace, 24, "todo")
+	ErrEmpty        = Register(RootCodespace, 25, "todo")
+	ErrInput        = Register(RootCodespace, 26, "todo")
+	ErrIteratorDone = Register(RootCodespace, 27, "todo")
+	ErrHuman        = Register(RootCodespace, 28, "todo")
 
 	// ErrPanic is only set when we recover from a panic, so we know to
 	// redact potentially sensitive system info
